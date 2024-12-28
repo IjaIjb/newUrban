@@ -1,0 +1,198 @@
+@import "./vars.module";
+
+.gradient_btn {
+  background: linear-gradient(181.52deg,
+      #264378 1.29%,
+      rgba(38, 67, 120, 0) 123.94%);
+  border-radius: 2px;
+  font-weight: 600;
+  padding: 1em 3em;
+  font-size: 14px;
+  color: #fff;
+}
+
+.default-button:disabled {
+  background-color: #bcbecb !important;
+}
+
+.contained-button {
+  height: 48px;
+  border-radius: 4px !important;
+  min-width: 175px !important;
+  text-decoration: none !important;
+  width: auto;
+  color: #fff;
+  background: $black !important;
+  font-size: 14px !important;
+  font-family: "Rubik", sans-serif;
+  text-transform: capitalize !important;
+  font-weight: 100 !important;
+
+  &:focus {
+    outline: 0px auto -webkit-focus-ring-color !important;
+  }
+
+  &.Mui-disabled {
+    color: #fff !important;
+  }
+
+  &:hover {
+    color: $white;
+  }
+
+  &.w--auto {
+    min-width: 100% !important;
+  }
+
+  &.w--124 {
+    min-width: 124px !important;
+    height: 52px;
+  }
+
+  &.w--117 {
+    min-width: 117px !important;
+    height: 52px;
+  }
+
+  &.b-flat-sm {
+    height: 38px;
+    min-width: 150px !important;
+  }
+
+  &.w--141 {
+    min-width: 141px !important;
+    height: 52px;
+  }
+
+  &.w--195 {
+    font-weight: bold;
+    min-width: 195px !important;
+  }
+
+  &.btn-orange {
+    background: $orange !important;
+  }
+
+  &.btn-light-purple {
+    background: #2f80ed !important;
+  }
+
+  &.btn-danger {
+    background: rgba($red, 0.1) !important;
+    color: $red;
+  }
+
+  &.Mui-disabled {
+    color: $white !important;
+    background: $grey !important;
+  }
+}
+
+
+.contained-button-small {
+  height: 48px;
+  border-radius: 4px !important;
+  min-width: 80px !important;
+  text-decoration: none !important;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background: $black !important;
+  font-size: 14px !important;
+  font-family: "Rubik", sans-serif;
+  text-transform: capitalize !important;
+  font-weight: 100 !important;
+
+  &:focus {
+    outline: 0px auto -webkit-focus-ring-color !important;
+  }
+
+  &.Mui-disabled {
+    color: #fff !important;
+  }
+
+  &:hover {
+    color: $white;
+  }
+
+  &.w--auto {
+    min-width: 100% !important;
+  }
+
+  &.w--124 {
+    min-width: 124px !important;
+    height: 52px;
+  }
+
+  &.w--117 {
+    min-width: 117px !important;
+    height: 52px;
+  }
+
+  &.b-flat-sm {
+    height: 38px;
+    min-width: 150px !important;
+  }
+
+  &.w--141 {
+    min-width: 141px !important;
+    height: 52px;
+  }
+
+  &.w--195 {
+    font-weight: bold;
+    min-width: 195px !important;
+  }
+
+  &.btn-orange {
+    background: $orange !important;
+  }
+
+  &.btn-light-purple {
+    background: #2f80ed !important;
+  }
+
+  &.btn-danger {
+    background: rgba($red, 0.1) !important;
+    color: $red;
+  }
+
+  &.Mui-disabled {
+    color: $white !important;
+    background: $grey !important;
+  }
+
+  span {
+    margin-left: 8px !important;
+
+  }
+}
+
+.btn-outline {
+  min-width: 128px !important;
+  height: 48px;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  font-size: 14px !important;
+  border-radius: 4px !important;
+  border: 1px solid rgb(19, 33, 60) !important;
+  font-family: "Inter-Regular";
+  color: rgb(19, 33, 60) !important;
+  text-transform: capitalize !important;
+
+  &:disabled {
+    border: 1px solid $grey !important;
+  }
+}
+
+.btn-text {
+  font-size: 14px !important;
+  text-transform: capitalize !important;
+
+  svg {
+    font-size: 18px;
+  }
+}
