@@ -4,8 +4,8 @@ import SuccessModal from "@/app/components/modal/sucess-modal";
 import React, { useState } from "react";
 import OwnerForm from "./(comp)/ownerForm";
 import ManagerForm from "./(comp)/managerForm";
-import { parseCookies } from "nookies";
-import { GetUserType } from "@/common/hooks/token";
+// import { parseCookies } from "nookies";
+// import { GetUserType } from "@/common/hooks/token";
 import { useSelector } from "react-redux";
 
 export default function AddDispatchOfficer() {
@@ -15,11 +15,11 @@ export default function AddDispatchOfficer() {
     setIsOpen(true);
   };
 
-  const closeModal = () => {
-    setIsOpen(false);
-  };
+  // const closeModal = () => {
+  //   setIsOpen(false);
+  // };
 
-  const [selectedPark, setSelectedPark] = useState();
+  // const [selectedPark, setSelectedPark] = useState();
   const userType = useSelector((a: any) => a?.authUser?.userAuthType);
   console.log(userType, "user type");
 

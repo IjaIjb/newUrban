@@ -16,7 +16,7 @@ import * as Yup from "yup";
 
 import { ClipLoader } from "react-spinners";
 export default function AddParkManager() {
-  const userData = useUser();
+  // const userData = useUser();
   const [parks, setParks] = useState<any[]>([]);
   const { pushWithUserTypePrefix, goBack } = useUserTypeRouter();
   const [isLoading, setIsLoading] = useState<boolean>(false);

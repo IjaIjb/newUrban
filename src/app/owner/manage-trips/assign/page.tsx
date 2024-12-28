@@ -14,12 +14,12 @@ import tripOBJs from "@/common/classes/trip.class";
 import { ClipLoader } from "react-spinners";
 
 export default function Assign() {
-  const { pushWithUserTypePrefix, goBack } = useUserTypeRouter();
-  const lugage = [
-    { value: "normal", label: "Normal Luggage" },
-    { value: "extra", label: "Extra Luggage" },
-  ];
-  const [search, setSearch] = useState("");
+  const { pushWithUserTypePrefix } = useUserTypeRouter();
+  // const lugage = [
+  //   { value: "normal", label: "Normal Luggage" },
+  //   { value: "extra", label: "Extra Luggage" },
+  // ];
+  // const [search, setSearch] = useState("");
   const [selectedPark, setSelectedPark]: any = useState();
   const [selectedDriver, setSelectedDriver] = useState();
 
@@ -116,11 +116,11 @@ export default function Assign() {
     },
   });
 
-  const [isToggled, setIsToggled] = useState<boolean>(false);
+  // const [isToggled, setIsToggled] = useState<boolean>(false);
 
-  const handleToggle = (isChecked: boolean) => {
-    setIsToggled(isChecked);
-  };
+  // const handleToggle = (isChecked: boolean) => {
+  //   setIsToggled(isChecked);
+  // };
 
   return (
     <Suspense>

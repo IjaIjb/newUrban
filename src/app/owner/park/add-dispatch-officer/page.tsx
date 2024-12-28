@@ -12,11 +12,11 @@ export default function AddDispatchOfficer() {
     setIsOpen(true);
   };
 
-  const closeModal = () => {
-    setIsOpen(false);
-  };
+  // const closeModal = () => {
+  //   setIsOpen(false);
+  // };
 
-  const [selectedPark, setSelectedPark] = useState();
+  // const [selectedPark, setSelectedPark] = useState();
   const userType = useSelector((a: any) => a?.authUser?.userAuthType);
   console.log(userType, "user type");
 

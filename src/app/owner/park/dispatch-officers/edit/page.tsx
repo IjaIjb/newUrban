@@ -19,9 +19,9 @@ import "react-toastify/dist/ReactToastify.css";
 import * as Yup from "yup";
 
 export default function OwnerForm() {
-  const [selectedPark, setSelectedPark] = useState();
+  // const [selectedPark, setSelectedPark] = useState();
   const [isLoading, setIsLoading] = useState<boolean>(false);
-  const { signUp } = useAuth();
+  // const { signUp } = useAuth();
   const { pushWithUserTypePrefix, goBack } = useUserTypeRouter();
   const [parks, setParks] = useState<any[]>([]);
   const cookies: any = parseCookies();
@@ -55,7 +55,7 @@ export default function OwnerForm() {
         phoneNumber: values.phoneNumber,
         parkId: values.parkId,
       };
-      console.log(selectedPark, "data from the form");
+      // console.log(selectedPark, "data from the form");
 
       dispatch
         .update(dispatchId, data)
